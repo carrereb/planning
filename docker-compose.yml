@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    image: planning_backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - .:/backend
+      - ./data:/backend/data
+    restart: no
+  
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./Dockerfile
+    image: planning_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/frontend
+    restart: no
+
+networks:
+  default:
+    name: local_network
+    external: true
