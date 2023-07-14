@@ -9,8 +9,8 @@ services:
     ports:
       - "3001:3001"
     volumes:
-      - .:/backend
-      - ./data:/backend/data
+      - ./backend:/backend
+      - ./backend/data:/backend/data
     restart: no
   
   frontend:
@@ -21,7 +21,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/frontend
+      - ./frontend:/frontend
     restart: no
 
 networks:

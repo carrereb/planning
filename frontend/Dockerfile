@@ -1,10 +1,10 @@
 FROM node:18-alpine
 
-USER node
 WORKDIR /frontend
-COPY --chown=node package*.json yarn.lock /frontend/
+COPY package*.json yarn.lock /frontend/
 RUN yarn install
-COPY --chown=node . /
+COPY . /
+ENV PATH=/frontend/node_modules/.bin:$PATH
 
 EXPOSE 3000
 CMD [ "yarn", "dev" ]
