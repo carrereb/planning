@@ -75,7 +75,7 @@ export default {
 			return this.id === -1 ? "Entrez votre tâche ici" : this.text;
 		},
 		getErrorMessage: function (): string[] {
-			return this.error ? ["This field is required before validating"] : [];
+			return this.error ? ["Ce champ est requis avant de valider"] : [];
 		}
 	}
 }
