@@ -1,0 +1,69 @@
+{
+    "monday": [
+        {
+            "name": "Physique",
+            "type": "TD",
+            "revision": [0, 2, 6, 15]
+        },
+        {
+            "name": "Maths",
+            "type": "CM",
+            "revision": [0, 2, 6, 15]
+        },
+        {
+            "name": "Maths",
+            "type": "TD",
+            "revision": [0, 2, 6, 15]
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Chimie",
+            "type": "CM",
+            "revision": [0, 2, 6, 15]
+        },
+        {
+            "name": "Physique",
+            "type": "CM",
+            "revision": [0, 2, 6, 15]
+        },
+        {
+            "name": "Maths",
+            "type": "CM",
+            "revision": [0, 2, 6, 15]
+        }
+    ],
+    "wednesday": [
+        {
+            "name": "Maths",
+            "type": "TD",
+            "revision": [0, 2, 6, 15]
+        },
+        {
+            "name": "Chimie",
+            "type": "TD",
+            "revision": [0, 2, 6, 15]
+        }
+    ],
+    "thursday": [
+        {
+            "name": "Anglais",
+            "type": "CM",
+            "revision": [3]
+        },
+        {
+            "name": "Physique ou chimie",
+            "type": "TP",
+            "revision": [0, 6]
+        }
+    ],
+    "friday": [
+        {
+            "name": "Maths",
+            "type": "TD",
+            "revision": [0, 2, 6, 15]
+        }
+    ],
+    "saturday": [],
+    "sunday": []
+}

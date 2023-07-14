@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "id": 0,
+            "text": "Réviser les maths",
+            "done": false,
+            "date": 1687478400000
+        },
+        {
+            "id": 1,
+            "text": "Réviser la physique",
+            "done": true,
+            "date": 1687478400000
+        },
+        {
+            "id": 2,
+            "text": "Réviser l'informatique",
+            "done": false,
+            "date": 1687478400000
+        }
+    ]
+}
