@@ -25,8 +25,3 @@ services:
     volumes:
       - ./frontend:/frontend
     restart: no
-
-networks:
-  default:
-    name: local_network
-    external: true
