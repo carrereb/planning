@@ -6,6 +6,7 @@ services:
       context: ./backend
       dockerfile: ./Dockerfile
     image: planning_backend
+    command: yarn start
     ports:
       - "3001:3001"
     volumes:
@@ -18,6 +19,7 @@ services:
       context: ./frontend
       dockerfile: ./Dockerfile
     image: planning_frontend
+    command: yarn dev
     ports:
       - "3000:3000"
     volumes:

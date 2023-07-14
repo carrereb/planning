@@ -6,5 +6,5 @@ RUN yarn install
 COPY . /
 ENV PATH=/frontend/node_modules/.bin:$PATH
 
-EXPOSE 3000
-CMD [ "yarn", "dev" ]
+# EXPOSE 3000
+# CMD [ "yarn", "dev" ]
