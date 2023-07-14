@@ -85,5 +85,6 @@ Start the frontend.
 yarn dev
 ```
 
-And finally, go to the following URL to enjoy the app: [http://localhost:3000/](http://localhost:3000/)
+And finally, go to the following URL to enjoy the app: [http://localhost:3000/](http://localhost:3000/).
+Don't hesitate to reload the web page.
 
